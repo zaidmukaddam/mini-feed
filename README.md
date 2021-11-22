@@ -8,7 +8,7 @@ The one-stop shop for content you love.
 
 Here's a quick demo of the app.
 
-[Mini Feed - The one stop shop for content you love](https://www.youtube.com/watch?v=)
+[Mini Feed - The one stop shop for content you love](https://www.youtube.com/watch?v=cYvI8qKOfLc)
 
 ## Run Locally
 

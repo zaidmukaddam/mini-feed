@@ -111,7 +111,7 @@ function Home() {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="" // Add id
+        videoId="cYvI8qKOfLc" 
         onClose={() => setIsOpen(false)}
       />
     </>
