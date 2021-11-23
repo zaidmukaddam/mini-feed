@@ -49,7 +49,7 @@ export const getServerSideProps = withPageAuthRequired({
 
       if (query.category === "twitter") {
         const response = await fetch(
-          `https://api.twitter.com/2/users/${data.feeds[0].twitterId}/tweets?expansions=attachments.media_keys,author_id&exclude=retweets,replies&media.fields=url,preview_image_url&tweet.fields=created_at&user.fields=username,verified&max_results=5`,
+          `https://api.twitter.com/2/users/${data.feeds[0].twitterId}/tweets?expansions=attachments.media_keys,author_id&exclude=retweets,replies&media.fields=url,preview_image_url&tweet.fields=created_at&user.fields=username,verified&max_results=20`,
           {
             headers: {
               "Content-Type": "application/json",
